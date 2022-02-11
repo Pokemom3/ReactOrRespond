@@ -1,0 +1,17 @@
+function IfStatements() {
+  let hour = 7;
+  if (hour >= 6 && hour < 12) {
+    console.log("good morning!");
+  } else if (hour > 12 && hour < 23.59) {
+    console.log("good evening");
+  }
+}
+
+let sorted = "finished";
+if (sorted === "finished" || sorted === "and-ever") {
+  console.log("Get In!");
+} else if (sorted === "incomplete") {
+  console.log("get back to work!");
+}
+
+export default IfStatements;
